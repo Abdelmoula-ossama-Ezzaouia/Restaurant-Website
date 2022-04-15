@@ -1,0 +1,36 @@
+.container {
+    height: calc(150vh - 50px) ;
+    position: relative;
+  }
+  
+  .arrowContainer {
+    position: absolute;
+    width: 5%;
+    height: 40%;
+    top: 0;
+    bottom: 50vh;
+    margin: auto;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .wrapper {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: all 1.5s ease-in-out ;
+    
+  }
+  
+  .imgContainer {
+    width: 200%;
+    height: 100%;
+    position: relative;
+    bottom: 16%;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container{
+      height: 50vh;
+    }
+  }
